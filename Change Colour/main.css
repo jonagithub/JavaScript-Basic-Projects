@@ -1,0 +1,27 @@
+
+body{
+    min-height: 100vh;   /*No matter screen, vh-> relative to 1% of the height of the view port*/
+    display: flex;        /*Min height should be some kind of % of the window */
+    justify-content: center;
+    align-items: center;
+}  
+/* and Now the button is gonna be in the center of the half the screen*/
+
+
+ .colorBtn{
+    padding: 0.25rem 0.5rem; /*vertical, horizontal*/
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0,0,0,0.6); /* 0.6 opacity*/
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+*/
+
+.colorBtn:hover{
+    background: rgb(0,0,0);
+}
+
